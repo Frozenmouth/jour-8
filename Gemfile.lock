@@ -12,6 +12,9 @@ GEM
       ast (~> 2.4.0)
     psych (3.1.0)
     rainbow (3.0.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
     rubocop (0.67.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -29,6 +32,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   nokogiri
+  rspec-core
   rubocop
 
 BUNDLED WITH
